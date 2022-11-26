@@ -1,0 +1,28 @@
+{
+  "name": "xguid",
+  "version": "1.0.0",
+  "description": "Generates GUID in terminal",
+  "main": "index.js",
+  "bin": {
+    "xguid": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthkochar/xguid.git"
+  },
+  "keywords": [
+    "guid"
+  ],
+  "author": "Siddharth Kochar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharthkochar/xguid/issues"
+  },
+  "dependencies": {
+    "shell-exec": "1.0.2"
+  },
+  "homepage": "https://github.com/siddharthkochar/xguid#readme"
+}

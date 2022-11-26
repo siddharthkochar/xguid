@@ -1,13 +1,12 @@
 {
   "name": "xguid",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Generates GUID in terminal",
-  "main": "index.js",
   "bin": {
-    "xguid": "index.js"
+    "xguid": "cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "show": "node ./bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,9 @@
     "url": "https://github.com/siddharthkochar/xguid/issues"
   },
   "dependencies": {
-    "shell-exec": "1.0.2"
+    "shell-exec": "1.0.2",
+    "chalk": "3.0.0",
+    "boxen": "4.1.0"
   },
   "homepage": "https://github.com/siddharthkochar/xguid#readme"
 }

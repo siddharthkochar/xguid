@@ -9,7 +9,7 @@ const options = {
     margin: 1,
     borderStyle: 'double',
     dimBorder: true,
-    borderColor: 'magenta'
+    borderColor: 'blue'
   }
 
 const api = 'https://www.uuidgenerator.net/api/guid';
